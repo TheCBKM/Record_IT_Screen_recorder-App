@@ -1,7 +1,7 @@
 {
   "name": "record_it",
   "version": "1.0.0",
-  "description": "Record Your Screen as it is a recorder ",
+  "description": "Record Your Screen/Windows because it is a recorder ",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -20,7 +20,10 @@
     "electron-builder": "^22.4.1",
     "nodemon": "^1.19.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "electron-log": "^4.1.1",
+    "electron-updater": "^4.2.5"
+  },
   "build": {
     "appId": "in.cbkm.readit",
     "copyright": "copyright 2020 cbkm.in",
