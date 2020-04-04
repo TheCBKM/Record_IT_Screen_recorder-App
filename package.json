@@ -1,0 +1,43 @@
+{
+  "name": "record_it",
+  "version": "1.0.0",
+  "description": "Record Your Screen as it is a recorder ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec 'electron .'",
+    "reset": "git reset --hard",
+    "release": "electron-builder -l ."
+  },
+  "repository": "https://github.com/TheCBKM/Recort_IT_Screen_recorder-App",
+  "author": {
+    "name": "CBKM",
+    "email": "rjoshi.prober@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.0.2",
+    "electron-builder": "^22.4.1",
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {},
+  "build": {
+    "appId": "in.cbkm.readit",
+    "copyright": "copyright 2020 cbkm.in",
+    "publish": {
+      "provider": "github"
+    },
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": "dmg"
+    },
+    "win": {
+      "target": "zip"
+    },
+    "linux": {
+      "category": "Utility",
+      "icon": "build/icons",
+      "target": "deb"
+    }
+  }
+}
