@@ -11,9 +11,14 @@
 
 `electron-builder -wl`
 
-<video width="320" height="240" controls>  
-<source src="movie.mp4" >  
-Your browser does not support the video tag.  
-</video>
+### Screenshots
+<img src="screenshots/icon.png" width="50"/>
+
+|<img src="screenshots/1.png" width="300"/>|<img src="screenshots/2.png" width="300"/>|
+|--|--|
+<img src="screenshots/3.png" width="300"/>
+ 
+
+
 
  
